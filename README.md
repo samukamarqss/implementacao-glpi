@@ -1,158 +1,67 @@
-# 🖥️ GLPI - Implantação de Sistema de Gerenciamento de Ativos e Chamados
+# GLPI — Implantação e Gerenciamento de Ativos
 
-> Documentação pública de uma implantação do GLPI para gerenciamento de ativos (ITAM) e Service Desk.
+## Sobre o projeto
 
-![Status](...)
-![GLPI](...)
-![License](...)
+Este projeto documenta a implantação e organização de um ambiente utilizando o **GLPI**, uma plataforma open source voltada ao gerenciamento de ativos de TI (IT Asset Management) e Service Desk.
 
----
+O objetivo foi estruturar um ambiente capaz de centralizar o inventário de equipamentos, organizar o fluxo de atendimento por chamados e facilitar a administração dos recursos tecnológicos de uma organização.
 
-## 📸 Preview
+> **Aviso:** Este projeto foi adaptado para publicação em meu portfólio. Todas as informações confidenciais, dados internos e configurações sensíveis foram removidos ou anonimizados.
 
-> Prints do sistema (anonimizados)
+## Objetivos
 
-- Dashboard
-- Inventário
-- Chamados
-- Base de conhecimento
-- Relatórios
+* Estruturar um ambiente de gerenciamento de ativos.
+* Organizar o inventário de equipamentos de TI.
+* Padronizar o processo de abertura e acompanhamento de chamados.
+* Melhorar a rastreabilidade dos ativos e do histórico de atendimentos.
+* Criar uma documentação clara para futuras implantações.
 
----
+## Principais atividades desenvolvidas
 
-## 📖 Sobre o projeto
+* Planejamento da estrutura do ambiente.
+* Configuração inicial do GLPI.
+* Organização de categorias e entidades.
+* Estruturação do inventário de ativos.
+* Definição de perfis e permissões de acesso.
+* Padronização do fluxo de chamados.
+* Produção da documentação técnica de apoio.
 
-Este repositório documenta o processo de implantação, configuração e organização do GLPI utilizado para gerenciamento de ativos de TI e atendimento de chamados.
+## Tecnologias
 
-O objetivo é demonstrar conhecimentos em infraestrutura, documentação técnica e boas práticas de gestão de ativos, preservando todas as informações confidenciais do ambiente corporativo.
+* GLPI
+* Linux
+* Apache / Nginx
+* PHP
+* MariaDB / MySQL
 
-Todo o conteúdo foi adaptado para fins de portfólio.
+> A infraestrutura específica utilizada não é divulgada por questões de segurança.
 
----
+## Boas práticas aplicadas
 
-## ✨ Funcionalidades
+* Organização lógica do inventário.
+* Padronização de nomenclaturas.
+* Separação por categorias e departamentos.
+* Documentação do ambiente.
+* Princípios de segurança da informação.
+* Controle de permissões por perfil.
 
-- Cadastro de ativos
-- Inventário de computadores
-- Inventário de notebooks
-- Impressoras
-- Monitores
-- Equipamentos de rede
-- Controle de patrimônio
-- Histórico dos ativos
-- Abertura de chamados
-- Fluxo de atendimento
-- Base de conhecimento
-- Relatórios
-- Controle por perfis
-- Gestão de usuários
+## Competências demonstradas
 
----
+Este projeto evidencia conhecimentos em:
 
-## 📂 Estrutura da documentação
+* Infraestrutura de TI
+* IT Asset Management (ITAM)
+* Service Desk
+* Documentação técnica
+* Organização de inventário
+* Boas práticas de suporte
+* Gestão de ativos
+* Implantação de sistemas corporativos
 
-docs/
-├── instalação
-├── configuração
-├── inventário
-├── chamados
-├── usuários
-├── backup
-├── boas-práticas
-└── imagens
+## Observações
 
----
-
-## 🚀 Processo de implantação
-
-1. Instalação do servidor
-2. Configuração do banco de dados
-3. Instalação do GLPI
-4. Configuração inicial
-5. Criação das entidades
-6. Configuração dos perfis
-7. Cadastro dos ativos
-8. Organização das categorias
-9. Estruturação dos chamados
-10. Testes finais
+Por se tratar de um projeto baseado em uma implantação realizada em ambiente corporativo, detalhes como endereços, credenciais, nomes de usuários, equipamentos, servidores e demais informações internas foram omitidos para preservar a segurança e a confidencialidade da organização.
 
 ---
 
-## 📦 Módulos apresentados
-
-### Inventário
-
-- Computadores
-- Notebooks
-- Monitores
-- Impressoras
-- Softwares
-- Licenças
-- Componentes
-- Fornecedores
-
-### Service Desk
-
-- Abertura de chamados
-- Categorias
-- SLA
-- Prioridades
-- Histórico
-- Soluções
-
-### Administração
-
-- Perfis
-- Usuários
-- Regras
-- Notificações
-- Plugins
-
----
-
-## 🧠 O que aprendi
-
-- Organização de inventário corporativo
-- Gestão de ativos (ITAM)
-- Boas práticas de Service Desk
-- Estruturação documental
-- Administração do GLPI
-- Controle de permissões
-- Documentação técnica
-- Gestão de patrimônio
-
----
-
-## 🛠️ Tecnologias
-
-- GLPI
-- PHP
-- MySQL / MariaDB
-- Apache
-- Linux
-
----
-
-## 🔒 Segurança
-
-Todas as informações corporativas foram removidas.
-
-Este projeto **não contém**:
-
-- Endereços IP
-- Usuários reais
-- Senhas
-- Domínios
-- Patrimônio da empresa
-- Informações internas
-- Dados pessoais
-
-As imagens foram anonimizadas exclusivamente para demonstração.
-
----
-
-## 👨‍💻 Autor
-
-Samuel Marques
-
-Técnico em Infraestrutura • Service Desk • Gestão de Ativos • Documentação Técnica
+Caso tenha interesse em conhecer mais sobre este projeto, trocar experiências ou conversar sobre infraestrutura de TI, estou sempre aberto para networking e novas oportunidades.
