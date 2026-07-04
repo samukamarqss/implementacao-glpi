@@ -29,10 +29,10 @@ O objetivo foi estruturar um ambiente capaz de centralizar o inventário de equi
 ## Tecnologias
 
 * GLPI
-* Linux
-* Apache / Nginx
+* Windows Server
+* Apache
 * PHP
-* MariaDB / MySQL
+* MySQL
 
 > A infraestrutura específica utilizada não é divulgada por questões de segurança.
 
